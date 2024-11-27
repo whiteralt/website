@@ -1,0 +1,11 @@
+body {
+  @media (prefers-color-scheme: light) {
+    background-color: #f7f4ff;
+    text-shadow: 1px 1px 2px whitesmoke, 0 0 1em white, 0 0 0.2em whitesmoke;
+  }
+  @media (prefers-color-scheme: dark) {
+    color: white;
+    text-shadow: 1px 1px 2px gray, 0 0 1em darkgray, 0 0 0.2em gray;
+    background-color: #0f001f;
+  }
+}
