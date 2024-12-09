@@ -4,12 +4,16 @@
   "description": "Refreshing with headache remembering code",
   "main": "index.html",
   "scripts": {
-    "start": "serve"
+    "start": "node app.js"
   },
-  "keywords": ["html", "css"],
+  "keywords": [
+    "html",
+    "css"
+  ],
   "author": "Black360o",
   "license": "MIT",
-  "devDependencies": {
-    "serve": "11.2.0"
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
   }
 }
